@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <nav>
+        <div id = "mainNav">
+            <div id = "navTop"  class = "container1">
+                <img id = "leaf" src = "images/assets/leaf.png" alt = "leaf">
+                <h1>EasyBay</h1> 
+                <div id = "search">
+                    <input type = "search" placeholder = "Search for anything" class = "searchBar">
+                    <img class = "searchIcon" src = "images/assets/search-dark.png" alt = "search">
+                </div> 
+                <p>Sign In</p>
+                <img src = "images/assets/cart-dark.png" alt = "shopping cart" class = "shoppingCart" onclick="clickCart()">
+            </div>
+            <div id = "navOptions" class = "container1">
+                <button class = "buttonDesign">Aeonium</button>
+                <button class = "buttonDesign">Andormischus</button>
+                <button class = "buttonDesign">Agave</button>
+                <button class = "buttonDesign">Aloe</button>
+                <button class = "buttonDesign">Anacampseros</button>
+                <button class = "buttonDesign">Aristaloe</button>
+                <button class = "buttonDesign">More...</button>
+            </div>
+            <p class = "headerTitle">Your Source for Serious Succulent Specialties
+            </p>
+            <div id = "mainCenter" class = "container1">
+                <div id = "middlePage">
+                    <div id = "middleLeft">
+                        <div id = "leftBox" class = "squareBox">
+                            <div id = "topText">
+                                <p>Discover succulent varieties one pot or rack at a  time!</p>
+                            </div>
+                            <div id = "bottomText">
+                                <h2>Discover</h2>
+                                <img src = "images/assets/arrow-light.png" alt = "arrow"> 
+                            </div>
+                        </div>
+                        <div class = "squareBox">
+                            <img id = "succulentOne" src = "images/assets/succulents-1.jpg" alt = "succulent 1" class = "succulent1" onmouseover = "hoverOver()" onmouseout = "hoverOut()">
+                        </div>
+                    </div>
+                    <div id = "middleRight" class = "squareBox">
+                        <div id = "topPic">
+                            <img class = "aloeM" src = "images/assets/aloe-m.jpg" alt = "aloe m">
+                        </div>
+                        <div id = "bottomSection">
+                            <h1>Soothing Aloe</h1>
+                            <img src = "images/assets/arrow-light.png" alt = "arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id = "bottomCenter" class = "container1">
+                <div class = "smallBoxes">
+                    <img src = "images/assets/aeonium-s.jpg" alt = "aeonium" class = "bottomPics">
+                    <p class = "caption">Aeonium</p>
+                </div>
+                <div class = "smallBoxes">
+                    <img src = "images/assets/aloe-s.jpg" alt = "aloe" class = "bottomPics">
+                    <p class = "caption">Aloe</p>
+                </div>
+                <div class = "smallBoxes">
+                    <img src = "images/assets/cactus-s.jpg" alt = "cactus" class = "bottomPics">
+                    <p class = "caption">Cactus</p>
+                </div>
+                <div class = "smallBoxes">
+                    <img src = "images/assets/echeveria-s.jpg" alt = "echeveria" class = "bottomPics">
+                    <p class = "caption">Echeveria</p>
+                </div>
+                <div class = "smallBoxes">
+                    <img src = "images/assets/sedum-s.jpg" alt = "sedum" class = "bottomPics">
+                    <p class = "caption">Sedum</p>
+                </div>
+                <div class = "smallBoxes">
+                    <img src = "images/assets/sempervivum-s.jpg" alt = "sempervivum" class = "bottomPics">
+                    <p class = "caption">Sempervivum</p>
+                </div>
+            </div>
+
+                <div id = "disclaimer" class = "container1">
+                    <img src = "images/assets/alert-dark.png" alt = "alert" class = "warning">
+                    <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href = "#"></a><u>cookie policy.</u></p>
+                    <button type = "button" class = "buttonStyle" onclick="clickAccept()">I accept</button>
+                </div>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>

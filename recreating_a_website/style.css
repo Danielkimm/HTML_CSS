@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+}
+
+#mainNav {
+    height: 120px;
+    width: 100%;
+}
+
+.container1 {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+#navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#leaf {
+    background-color: #00D1B2;
+
+    /*invert this **/
+}
+
+#navTop > h1 {
+    font-size: 4em;
+}
+
+#search {
+    display: flex;
+}
+
+.searchBar {
+    width: 600px;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 1.5em;
+}
+
+.searchIcon {
+    height: 40px;
+    position: relative;
+    right: 60px;
+    top: 10px;
+}
+
+#navTop > p {
+    font-size: 2em;
+}
+
+.shoppingCart {
+    width: 50px;
+}
+
+#navOptions {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 15px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.buttonDesign {
+    width: 100px;
+    height: 50%;
+    border: none;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+.headerTitle {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+#mainCenter {
+    height: 450px;
+}
+
+#middlePage {
+    display: flex;
+    justify-content: space-between;
+}
+
+#middleLeft {
+    display: flex;
+}
+
+.squareBox {
+    height: 400px;
+    width: 400px;
+}    
+
+#leftBox {
+    color: white;
+    font-size: 2em;
+    background-color: #00D1B2;
+}
+
+#topText {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+#bottomText {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+    margin-top: 50px;
+}
+
+.succulent1{
+    width: 100%;
+}
+
+#middleRight{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 30px;
+}
+
+#topPic {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.aloeM {
+    height: 100%;
+    max-width: 100%;
+}
+
+#bottomSection {
+    background-color: #00D1B2;
+    display: flex;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+
+#bottomCenter {
+    height: 120px;
+    background-color: #00D1B2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.smallBoxes {
+    height: 100%;
+    width: 90px;
+    margin-top: 10px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.bottomPics {
+    height: 70%;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#disclaimer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    align-items: center;
+    border: solid black 4px;
+    height: 80px;
+}
+
+.buttonStyle {
+    width: 150px;
+    height: 40px;
+    background-color: #00D1B2;
+    box-shadow: 5px 5px 5px black ;
+    color: white;
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+
+

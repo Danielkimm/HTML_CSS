@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+    border: 1px black solid;
+}
+
+#topBox {
+    background-color: rgb(18, 138, 207);
+    width: 100%;
+    height: 30%;
+}
+
+#profilePic {
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+#bottomBox {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between; 
+    position: relative; 
+    margin: 20px;
+    top: 50px;
+}
+
+#userName {
+    margin: 5px;
+}
+
+#textDescription {
+    margin: 5px;
+}
+
+#editProfile {
+    display: flex;
+    margin: 5px;
+}
+
+.largePic {
+    width: 10%;
+}
+
+.smallPic {
+    width: 3%;
+}
+

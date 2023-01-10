@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.search  {
+    color: #04dada;
+    font-weight: bolder;
+    background-color: #ffffff;
+    height: 20px;
+    width: 120px;
+    border: 2px solid #04dada;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.circle {
+    color: #04dada;
+    background-color: #04dada;
+    height: 36px;
+    width: 36px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 1px solid #04dada;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+.horizontal {
+    color: white;
+    width: 10px;
+    border: 1px solid white;
+    position: absolute;
+}
+
+.vertical {
+    color: white;
+    height: 10px;
+    border: 1px solid white;
+    position: absolute;
+}
+
+.createAccount {
+    color: white;
+    background: rgb(23, 27, 248);
+    height: 20px;
+    width: 110px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
